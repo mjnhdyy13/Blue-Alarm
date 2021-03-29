@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AlarmClock</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="create_order_title">Create Alarm</string>
+    <string name="channel_name">Alarm</string>
+    <string name="channel_description">Notify</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hfad.alarmclock.MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:onClick="listalarm"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/avashiro"
+        android:layout_height="wrap_content"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fuss3g" />
+</FrameLayout>

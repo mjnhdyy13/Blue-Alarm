@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@null"
+    tools:context="com.hfad.alarmclock.ListAlarm">
+
+
+    <TextView
+        android:id="@+id/tv_hour"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="98dp"
+        android:layout_toStartOf="@+id/switch1"
+
+        android:text="TextView"
+        android:textColor="#46CAEC"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_hour"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="94dp"
+        android:layout_toStartOf="@+id/switch1"
+        android:text="TextView"
+        android:textColor="#0E0E98"
+        android:textSize="16sp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:thumbTint="#02F1D5"
+        android:layout_width="68dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="26dp"
+        android:scrollbarSize="20dp" />
+</RelativeLayout>
